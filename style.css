@@ -1,0 +1,177 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  font: 1.2rem "Fira Sans", sans-serif;
+  
+}
+
+
+
+img{
+  height: 300px;
+
+}
+
+
+body{
+  background-image: linear-gradient(
+    45deg,
+    hsl(239deg 100% 50%) 0%,
+    hsl(252deg 97% 48%) 15%,
+    hsl(258deg 96% 45%) 28%,
+    hsl(264deg 96% 42%) 41%,
+    hsl(271deg 95% 38%) 60%,
+    hsl(279deg 94% 34%) 100%
+  );
+
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame{
+  position: relative;
+  width: 800px;
+  height: 600px;
+  background-color: #fff;
+  padding: 28px 32px;
+  overflow: hidden;
+  border-radius: 18px;
+  padding-right: 100px;
+}
+
+.searchBox{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: min-content;
+  justify-content: space-between;
+}
+
+.searchBox input{
+  width: 80%;
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding-left: 32px;
+}
+
+.searchBox input::placeholder{
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: rgb(163, 115, 207);
+
+}
+
+.searchBox button{
+  cursor: pointer;
+  width: 75px;
+  height: 75px;
+  color: #06263D;
+  background: #dff6ff;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: 0.4s ease;
+}
+
+.searchBox button:hover{
+  color:#fff;
+  background: #06263D;
+}
+
+.searchBox button:active{
+  background-color: rgb(31, 45, 150);
+}
+
+.weatherBox .temperature{
+position: relative;
+color: #06263D;
+font-size: 32px;
+font-weight: 800;
+margin-top: 30px;
+margin-left: -16px;
+}
+
+.weatherBox .description{
+  color: #06263D;
+  font-size: 32px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.weatherDetails{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 175px;
+}
+
+.weatherDetails .humidity, .weatherDetails .windSpeed{
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 100px;
+}
+
+.weatherDetails .humidity{
+  padding-left: 20px;
+  justify-content: flex-start;
+  font-size: 25px;
+
+}
+
+.weatherDetails .windSpeed{
+  padding-right: 20px;
+  font-size: 25px;
+  justify-content: flex-end;
+}
+
+.weatherDetails p{
+  color: #06263D;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.error{
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  scale: 0;
+  opacity: 0;
+  display: none;
+}
+
+.error p{
+  color: #06263D;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+
+.weatherBox{
+  display: flex;
+  justify-content: space-between;
+}
+
+.weatherBox {
+  text-align: center; 
+  margin-top: 50px;
+}
+
+.weatherBox .temperature {
+  font-size: 3rem; 
+  font-weight: 700;
+}
+
+.weatherBox .description {
+  font-size: 1.5rem;
+  margin-top: 50px;
+}
+
+
