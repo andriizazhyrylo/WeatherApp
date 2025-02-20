@@ -10,4 +10,4 @@ Weather App
 
 Контакти:
 Автор: Андрій Зажирило;
-e-mail: andrii.zazhyrylo@gmail.com.
+e-mail: andriizazhyrylo@gmail.com.
