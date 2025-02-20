@@ -9,5 +9,5 @@ Weather App
 4.OpenWeatherAPI(дані про погоду).
 
 Контакти:
-Автор: Андрій Зажирило
-e-mail: andrii.zazhyrylo@gmail.com
+Автор: Андрій Зажирило;
+e-mail: andrii.zazhyrylo@gmail.com.
